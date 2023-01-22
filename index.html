@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/bf4e618c96.js" crossorigin="anonymous"></script>
+        
+        <title> Moa Olofsson Nordin Portfolio</title>
+    </head>
+<body>
+
+    <!---Här visas en bild på mig-->
+
+    <div>        
+        <img id="selfie" src="mok (2).jpg" alt="Bild på Moa" class="bild på moa">
+    </div>
+
+    <!---Här är en meny för att ta sig till mina olika rubriker-->
+
+    <header class="Header" id="header">
+        <div>
+            <h1>Moa Olofsson Nordin</h1>  
+            <p class="avsnitt-header">UX-designer med kravkompetens</p> 
+        <nav>
+            <ul>
+                <li><a href="#ommig" href="ommig.html">Om mig</a></li>  
+                <li><a href="#arbetsliv" href="Arbetsliv.html">Arbetsliv</a></li>
+                <li><a href="#portfolio" href="portfolio.html">Portfolio</a></li>
+                <li><a href="#kontaktuppgifter" href="kontaktuppgifter.html">Kontaktuppgifter</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </button>
+        </nav>
+        </div> 
+    </header>
+
+    <!---Här kan man läsa om mig-->
+
+    <section class="avsnitt">
+        <div id="ommig">
+        <h2>Om mig</h2>
+        <p class="avsnitt-text">Välkomna till min portfolio! <br> 
+            <br>
+            Här finner ni en tjej med intresse för design. Moa var namnet och att skapa har alltid varit en del av mitt liv.
+            För det mesta har det handlat om fysiska ting, som till exempel måla. Men på sistone har ja funnit intresse för ett digitalt skapande. 
+            När jag inte skapar tar jag mig gärna en tur på min SUP eller leker i snön. Barnasinnet är kvar med andra ord. <br>
+            <br>
+            Jag läser nu UX-design med kravkompetens och är inne på min andra termin. Dom delar jag har fattat stort tycke för är interaktionsdesign och programmering. 
+            Jag ser fram emot att lära mig mer om tillgänglighetsdirektiven för att få en djupare förståelse för arbetet.
+        </p>
+    </div>    
+    </section>
+    <!--Här kan man läsa  om mitt arbetsliv-->
+    <section class="avsnitt">
+        <div id="arbetsliv"> 
+        <h2>Arbetsliv</h2>
+        <p class="avsnitt-text"> Jag har tidigare jobbat en hel del inom skola och vård- och omsorg. Mycket givande arbeten men också otroligt slitsamt till och från.<br>
+        Jag vill nu gå vidare och är väldigt motiverad att lära mig mer om it-branchen. <br>
+        <br>
+        Medans jag pluggar arbetar jag även som hotellreceptionist där jag trivs fantastiskt bra efter att blivit utbränd inom skolvärlden. </p>
+        </p>
+        </div>
+    </section>
+
+    <!---Här är min portfolio-->
+    <section class="avsnitt-projekt">
+    <div id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Projekt med olika sanninghetsgrader i hur mycket jag faktiskt har varit med och utvecklat dem.</p>
+    </div>
+    <!---Mina projekt har jag gjort kort av som man kan klicka på och komma till webbplatserna. 
+        Man kan komma till webbplatsen via att klicka på bilden eller på "visa sida".-->
+    <div class="projekt-container">    
+        <div class="projektkort">
+            <a href="https://quran.com/"><img class="projektbild" src="quran.JPG" alt="Picture of the site quran.com"></a>
+            <h3 class="h3projekt">Projekt Quran.com</h3>
+            <p class="projekttext">I det här projektet jobbade jag med att hjälpa webbplatsen att möta kriterierna enligt WCAG 2.1.</p>
+            <p class="projekttext"><a class="projekt-link" href="https://quran.com/">Visa sida</a></p>
+        </div>
+        <div class="projektkort">
+            <a href="https://www.foodora.se/"><img class="projektbild" src="foodora.JPG" alt="Picture of the site Foodora.com"></a>
+            <h3 class="h3projekt">Projekt Foodora</h3>
+            <p class="projekttext">I det här projektet fick jag möjligheten att hjälpa till att utveckla en kartfunktion.</p>
+            <p class="projekttext"><a class="projekt-link" href="https://www.foodora.se/">Visa sida</a></p>
+        </div>
+        <div class="projektkort">
+            <a href="https://www.arabiskacentret.se/"><img class="projektbild" src="arabc.JPG" alt="Picture of the site arabiskacentret.se"></a>
+            <h3 class="h3projekt">Projekt arabiskacentret</h3>
+            <p class="projekttext">I det här projektet fick jag möjligheten att utveckla en webbplats för att lära sig arabiska online.</p>
+            <p class="projekttext"><a class="projekt-link" href="https://www.arabiskacentret.se/">Visa sida</a></p>
+        </div>
+    </div>
+    </section>
+
+    <!---Här finns mina kontaktuppgifter och sociala medier. 
+    Här har jag gjort ikonerna för mina sociala medier kopplade till respektive webbplatser-->
+
+    <footer class="footer">
+        <section>
+        <div id="kontaktuppgifter" class="avsnitt-footer" >
+         <h3>Kontaktuppgifter</h3>
+         <p>Moa Olofsson Nordin</p>
+         <P>e-mail: moaonordin@******</P>
+         <p>mobil: 070*******</p>
+         <div class="socials">
+                <div>
+                    <a href="https://se.linkedin.com/in/moa-olofsson-nordin-7a5661251" class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/MoaONordin" class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"/></svg>
+                    </a>
+                </div>
+            </div>    
+        </div>
+        </section>
+    </footer>
+    <script src="scr/app.js"></script>
+</body>
+</html>
+
+
+
+<!--Fixa hamburgermeny-->
+<!--Kolla att sida är responsiv-->
+<!--Kolla att texterna ligger bra-->
+<!--Kolla JS-->
+<!-- Inte helt klar, laddar upp ifall jag tappar anslutningen-->

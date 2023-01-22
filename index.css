@@ -1,0 +1,215 @@
+body {
+    background-color:rgb(247, 243, 231);
+}
+
+#selfie {
+    max-width: 200px;
+    max-height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/*Header*/
+.header {
+    background-color: rgb(255, 255, 255);
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+}
+
+.avsnitt-header {
+    background-color: rgb( 255, 255, 255);
+    text-align: center;
+    font-size: large;
+    font-style: 'light 300';
+    padding: 3rem 3rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+h1 {
+    color: rgb(8, 8, 8);
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: "lucida handwriting", cursive;
+    font-size: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li a:hover{
+    background-color: rgb(42, 49, 34);
+    transition: 0,2s;
+    color: rgb(255, 255, 255);
+}
+
+/*Här har jag lagt in återkommande inställningar för classer för att få en röd tråd genom hela sidan*/
+
+.avsnitt {
+    background-color:rgb(247, 243, 231);
+    text-align: center;
+    font-size: large;
+    font-style: 'light 300';
+    padding: 2rem;
+    font-family: 'Roboto Mono', monospace;  
+}
+
+.avsnitt-text {
+    text-align: center;
+    font-size: large;
+    font-style: 'light 300';
+    padding: 2rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Roboto Mono', monospace;   
+}
+
+.avsnitt-projekt {
+    background-color: rgb(247, 243, 231);
+    text-align: center;
+    font-size: large;
+    font-style: 'light 300';
+    padding: 3rem 3rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.avsnitt-footer {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-style: 'light 300';
+    padding: 3rem 3rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    padding: 1rem 1rem;
+}
+.h3projekt{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    padding: 1rem 1rem;
+}
+
+p {
+    font-size: medium;
+}
+
+/*Här har jag inställningar för projektdelen*/
+.projekttext {
+    text-align: center;
+    font-size: small;
+    font-style: 'light 300';
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.projektkort {
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    background-color: rgb( 255, 255, 255); 
+    border-radius: 20px;
+}
+
+.projekt-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1000px) {
+    .projekt-container {
+      flex-direction: column;
+    }
+  }
+
+.projektbild {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgb(197, 195, 195);
+}
+
+.projekt-link {
+    text-decoration:none;
+    color: #ec4a14;
+    font-size: medium;
+}
+
+/*sociala medier*/
+.socials {    
+    display:flex;
+    justify-content:center;
+    flex-direction: row;
+
+    padding: 1rem;
+    background-color: rgb(42, 49, 34);
+}
+
+.social {
+    margin: 15px;
+    background-color: rgb(42, 49, 34);
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+}
+
+.footer {
+    background-color: rgb(42, 49, 34);
+}
